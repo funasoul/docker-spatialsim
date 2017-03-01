@@ -122,6 +122,7 @@ if [ "$val_O" ]; then
   mnt_out="--volume=${out_dir}:${docker_out_dir}"
 else
   out_dir="."
+  option_arg="$option_arg -O $docker_out_dir"
   mnt_out="--volume=`pwd`:$docker_out_dir"
 fi
 
