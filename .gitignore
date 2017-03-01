@@ -1,0 +1,14 @@
+# from MacOSX
+.DS_Store
+
+# Emacs backup files
+*~
+
+# Vim
+.*.swp
+
+# sample model
+sam2d.xml
+
+# simulation result
+/result

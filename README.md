@@ -1,5 +1,5 @@
 # Dockerfile and script to run [spatialsimulator](https://github.com/spatialsimulator) on docker.
-Dockerfile and a shell script in this repository will help you execute SpatialSimulator (for Linux 64bit) on docker.
+Dockerfile and a shell script in this repository will help you execute [SpatialSimulator](https://github.com/spatialsimulator) (for Linux 64bit) on docker.
 
 ## How to use
 ### Requirements
