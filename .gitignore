@@ -7,8 +7,5 @@
 # Vim
 .*.swp
 
-# sample model
-sam2d.xml
-
 # simulation result
 /result
