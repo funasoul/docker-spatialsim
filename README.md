@@ -23,14 +23,18 @@ Usage and accepted options will be shown by the following command.
 ===== docker-spatialsim.sh      Run spatialsimulator on docker ===================
 Usage          : docker-spatialsim.sh [option] filename(SBML file only)
  -h            : show this message
- -x #(int)     : the number of points at x coordinate (for analytic geometry only) (ex. -x 100)
- -y #(int)     : the number of points at y coordinate (for analytic geometry only) (ex. -y 100)
- -z #(int)     : the number of points at z coordinate (for analytic geometry only) (ex. -z 100)
- -t #(double)  : simulation time (ex. -t 10)
- -d #(double)  : delta t (ex. -d 0.01)
- -o #(int)     : output results every # steps (ex. -o 10)
- -c #(double)  : min of color bar range (ex. -c 1)
+ -x #(int)     : the number of points at x coordinate (for analytic geometry only)
+                 (ex. -x 200 [default:100])
+ -y #(int)     : the number of points at y coordinate (for analytic geometry only)
+                 (ex. -y 200 [default:100])
+ -z #(int)     : the number of points at z coordinate (for analytic geometry only)
+                 (ex. -z 200 [default:100])
+ -t #(double)  : simulation time (ex. -t 10 [default:1.0])
+ -d #(double)  : delta t (ex. -d 0.1 [default:0.01])
+ -o #(int)     : output results every # steps (ex. -o 10 [default:1])
+ -c #(double)  : min of color bar range (ex. -c 1 [default:0.0])
  -C #(double)  : max of color bar range (ex. -C 10)
+                 [default:Max value of InitialConcentration or InitialAmount]
  -s char#(int) : {x,y,z} and the number of slice (only 3D) (ex. -s z10)
  -O outDir     : path to output directory
 
