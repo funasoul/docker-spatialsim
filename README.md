@@ -43,7 +43,7 @@ Usage          : docker-spatialsim.sh [option] filename(SBML file only)
 
 ### Launch SpatialSimulator on docker
 ```sh
-./docker-spatialsim.sh -t 0.1 -d 0.001 -o 10 -C 10 sam2d.xml
+./docker-spatialsim.sh -t 0.1 -d 0.001 -o 10 sam2d.xml
 ```
 Simulation result will be stored under `result/` directory. Of course, you can specify the output directory with `-O output_dir` option.
 Have fun!
