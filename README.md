@@ -1,7 +1,7 @@
 # Dockerfile and script to run [spatialsimulator](https://github.com/spatialsimulator) on docker.
 Dockerfile and a shell script in this repository will help you execute [SpatialSimulator](https://github.com/spatialsimulator) (for Linux 64bit) on docker.
 
-![SpatialSimulator on Docker](./images/sam2d_cyt.png "SpatialSimulator on Docker")
+![SpatialSimulator on Docker](./images/sam2d_s1_cyt.gif "SpatialSimulator on Docker")
 
 ## How to use
 ### Requirements
